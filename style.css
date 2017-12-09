@@ -127,30 +127,48 @@ h5{
   background-color: rgb(29,43,54)
 }
 
-input, textarea, label{
-  display: block;
-  width: 100%;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 15px;
-  border:none;
+footer h2{
+  margin: 5% 0;
+  font-size: 3.5rem;
+}
+
+footer p{
+  font-size: 0.8rem;
+}
+
+footer h2, p{
+  margin-left: 12%;
 }
 
 input{
+  display: block;
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 10px;
+  border:none;
+  border-radius: 5px;
+  padding: 2.5%;
   margin-bottom: 0.5rem;
 }
 
-textarea{
-  font-size: 10px;
-}
-
-.checkboxes input{
-  display: inline;
-  width: auto;
-}
+ textarea{
+   display: block;
+   width: 100%;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 10px;
+   border:none;
+   border-radius: 5px;
+   padding: 2%;
+   margin-bottom: 0.5rem;
+   font-size: 10px;
+   color: rgb(29,43,54);
+   min-height: 13vh;
+ }
 
 input[type="submit"]{
   background-color: #e0aa02;
   margin: 5% 0%;
+  padding: 6%;
 }
 
 
