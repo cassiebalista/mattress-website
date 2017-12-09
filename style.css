@@ -40,7 +40,7 @@ header,footer, .banner, .small-banner {
 /* ----------- Typography ------------*/
 h1 span,
 h2 span{
-  color: #e0aa02;
+  color: #e0aa02; /* gold */
 }
 
 .light-text,
@@ -140,19 +140,22 @@ h5{
 footer h2{
   margin: 5% 0;
   font-size: 3.5rem;
+  max-width: 200px;
+
 }
 
 footer p{
   font-size: 0.8rem;
+  max-width: 300px;
 }
 
-footer h2,footer p{
-  margin-left: 12%;
+form {
+  max-width: 450px;
+  margin: auto;
 }
-
-input{
-  display: block;
+input, textarea {
   width: 100%;
+  display: block;
   font-family: 'PT Sans', sans-serif;
   font-size: 10px;
   border:none;
@@ -162,15 +165,6 @@ input{
 }
 
  textarea{
-   display: block;
-   width: 100%;
-   font-family: 'PT Sans', sans-serif;
-   font-size: 10px;
-   border:none;
-   border-radius: 5px;
-   padding: 2%;
-   margin-bottom: 0.5rem;
-   font-size: 10px;
    color: rgb(29,43,54);
    min-height: 13vh;
  }
@@ -178,19 +172,14 @@ input{
 input[type="submit"]{
   background-color: #e0aa02;
   margin: 5% 0%;
-  padding: 4%;
+  padding: 3%;
   font-size: 17px;
 }
 
 
 
 
-
-
-
-
 /* ----------- Contact Form ------------*/
-
 
 
 @media(max-width:768px){
@@ -203,5 +192,16 @@ input[type="submit"]{
   footer h2 {
     font-size: 2.5rem;
   }
+
+  .small-banner {
+    background-image: none;
+    background-color:#e0aa02;
+
+  }
+
+  h5 {
+    font-size: 40px;
+  }
+
 
 } /* end media query*/
