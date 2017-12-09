@@ -17,6 +17,14 @@ header,footer, .banner, .small-banner {
   padding: 5%;
 }
 
+.padded-15{
+  padding: 15%;
+}
+
+.padded-7{
+  padding: 7%
+}
+
 .right{
   text-align: right;
 }
@@ -109,6 +117,8 @@ h5{
   background-position: 74% 34%;
 }
 
+
+
 /* ----------- testimonial section ------------*/
 
 .testimonial{
@@ -136,7 +146,7 @@ footer p{
   font-size: 0.8rem;
 }
 
-footer h2, p{
+footer h2,footer p{
   margin-left: 12%;
 }
 
@@ -168,7 +178,8 @@ input{
 input[type="submit"]{
   background-color: #e0aa02;
   margin: 5% 0%;
-  padding: 6%;
+  padding: 4%;
+  font-size: 17px;
 }
 
 
@@ -179,3 +190,18 @@ input[type="submit"]{
 
 
 /* ----------- Contact Form ------------*/
+
+
+
+@media(max-width:768px){
+
+
+  .mob-reverse {
+    flex-direction: column-reverse;
+  }
+
+  footer h2 {
+    font-size: 2.5rem;
+  }
+
+} /* end media query*/
