@@ -9,11 +9,7 @@
 
 /* ----------- Universal Styles ------------*/
 /* Eg padding on your sections, ultity classes, ect */
-header,footer, .banner, .small-banner {
-  padding: 5%;
-}
-
-.padded{
+header,footer, .banner, .small-banner, .padded {
   padding: 5%;
 }
 
@@ -47,7 +43,6 @@ h2 span{
 input[type="submit"]{
   color: white;
   border: 0px solid #e0aa02;
-  padding: 3%;
 }
 
 /*
@@ -202,6 +197,9 @@ input[type="submit"]{
   h5 {
     font-size: 40px;
   }
+
+  .quote{
+    font-size: 3rem;
 
 
 } /* end media query*/
