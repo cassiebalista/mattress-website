@@ -1,0 +1,163 @@
+/* ----------- CSS Reset ------------*/
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /*border: 1px solid rgb(220,220,220);*/
+}
+
+/* ----------- Universal Styles ------------*/
+/* Eg padding on your sections, ultity classes, ect */
+header,footer, .banner, .small-banner {
+  padding: 5%;
+}
+
+.padded{
+  padding: 5%;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+/* ----------- Typography ------------*/
+h1 span,
+h2 span{
+  color: #e0aa02;
+}
+
+.light-text,
+input[type="submit"]{
+  color: white;
+  border: 0px solid #e0aa02;
+  padding: 3%;
+}
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+p */
+body
+{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  font-size:4.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4{
+  font-size: 1.2rem;
+}
+
+h5{
+  font-size: 3.5rem;
+}
+
+
+/* ----------- Banners & Background Images ------------*/
+[class*='bg'],
+.banner,
+.small-banner{
+  background-color: rgb(200,200,200);
+  background-size: cover;
+  background-position: 50%, 50%;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.banner{
+  background-image: url(images/palms.jpg);
+  color: white;
+  min-height: 90vh;
+}
+.banner h2{
+  font-weight: 300;
+}
+
+.bg-pug{
+  background-image: url(images/pug.jpg);
+  background-position: 50% 39%
+}
+
+.bg-bed{
+  background-image: url(images/bed.jpg);
+}
+
+.small-banner {
+  background-image: url(images/pencils.jpg);
+  background-position: 74% 34%;
+}
+
+/* ----------- testimonial section ------------*/
+
+.testimonial{
+  padding: 5%;
+  margin: 5%;
+}
+
+.quote{
+  font-size: 5rem;
+}
+
+
+/* ----------- Footer------------*/
+
+.dark{
+  background-color: rgb(29,43,54)
+}
+
+input, textarea, label{
+  display: block;
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  border:none;
+}
+
+input{
+  margin-bottom: 0.5rem;
+}
+
+textarea{
+  font-size: 10px;
+}
+
+.checkboxes input{
+  display: inline;
+  width: auto;
+}
+
+input[type="submit"]{
+  background-color: #e0aa02;
+  margin: 5% 0%;
+}
+
+
+
+
+
+
+
+
+/* ----------- Contact Form ------------*/
